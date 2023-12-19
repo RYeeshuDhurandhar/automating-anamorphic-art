@@ -1,3 +1,4 @@
 # automating-anamorphic-art
+Anamorphic art refers to the art of arranging rigid objects in space to create 3D representations that appear differently when rendered from different angles.
 
-This repository contains the code for the implementation of "Automating Anamorphic Art using Signed Distance Functions". The project aims to automate the process of creating anamorphic art using signed distance functions for accurate shape representation and easy set operations.
+We employ both Mesh and Signed Distance Function (SDFs) representations for creating anamorphic art. While the code for SDF-based representation is provided in this repository, the mesh-based representation code is not included due to privacy considerations.

@@ -1,0 +1,2606 @@
+parameters = [[0.5,0,0,0,0,0], [3,2,0,0,0,0], [3,1.5,0,0,0,0], [2.5,3.5,2,0,0,0], [2,3.5,2,0,0,0]]
+
+
+parameters.grad:  None
+Iteration:  0
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(3.4834, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(72.8295, grad_fn=<AddBackward0>)
+Total Loss:  tensor(76.3129, grad_fn=<AddBackward0>)
+Gradients:
+9.293789863586426
+Gradient before update: tensor(3.2404)
+Gradient after update: tensor(3.2404)
+Total Loss:  tensor(76.3129, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[0.6000, 0.1000, 0.0000, 0.0000, 0.0000, 0.0000],
+        [2.9000, 2.1000, 0.0000, 0.0000, 0.0000, 0.0000],
+        [2.9000, 1.4000, 0.0000, 0.0000, 0.0000, 0.0000],
+        [2.6000, 3.4000, 1.9000, 0.0000, 0.0000, 0.0000],
+        [1.9000, 3.4000, 1.9000, 0.0000, 0.0000, 0.0000]], requires_grad=True)
+Iteration:  1
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(1.9174, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(72.6550, grad_fn=<AddBackward0>)
+Total Loss:  tensor(74.5724, grad_fn=<AddBackward0>)
+Gradients:
+6.5111002922058105
+Gradient before update: tensor(4.0768)
+Gradient after update: tensor(4.0768)
+Iteration:  2
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.8797, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(72.4623, grad_fn=<AddBackward0>)
+Total Loss:  tensor(73.3419, grad_fn=<AddBackward0>)
+Gradients:
+4.526205539703369
+Gradient before update: tensor(3.5065)
+Gradient after update: tensor(3.5065)
+Total Loss:  tensor(73.3419, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[0.7012, 0.2946, 0.0000, 0.0000, 0.0000, 0.0000],
+        [2.7016, 2.2860, 0.0000, 0.0000, 0.0000, 0.0000],
+        [2.7352, 1.2086, 0.0000, 0.0000, 0.0000, 0.0000],
+        [2.7848, 3.2413, 1.7365, 0.0000, 0.0000, 0.0000],
+        [1.7057, 3.2063, 1.7955, 0.0000, 0.0000, 0.0000]], requires_grad=True)
+Iteration:  3
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.2609, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(72.2406, grad_fn=<AddBackward0>)
+Total Loss:  tensor(72.5015, grad_fn=<AddBackward0>)
+Gradients:
+3.324477434158325
+Gradient before update: tensor(4.5026)
+Gradient after update: tensor(4.5026)
+Iteration:  4
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0193, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(72.0108, grad_fn=<AddBackward0>)
+Total Loss:  tensor(72.0301, grad_fn=<AddBackward0>)
+Gradients:
+2.15275502204895
+Gradient before update: tensor(4.0835)
+Gradient after update: tensor(4.0835)
+Total Loss:  tensor(72.0301, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 6.6529e-01,  4.8510e-01, -4.5418e-02,  0.0000e+00,  0.0000e+00,
+          0.0000e+00],
+        [ 2.5041e+00,  2.4169e+00,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00],
+        [ 2.5647e+00,  1.0386e+00,  5.6269e-04,  0.0000e+00,  0.0000e+00,
+          0.0000e+00],
+        [ 2.9355e+00,  3.2155e+00,  1.6341e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00],
+        [ 1.5276e+00,  3.0164e+00,  1.7081e+00,  0.0000e+00,  0.0000e+00,
+          0.0000e+00]], requires_grad=True)
+Iteration:  5
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(71.7900, grad_fn=<AddBackward0>)
+Total Loss:  tensor(71.7900, grad_fn=<AddBackward0>)
+Gradients:
+1.7195135354995728
+Gradient before update: tensor(2.4776)
+Gradient after update: tensor(2.4776)
+Iteration:  6
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(71.5639, grad_fn=<AddBackward0>)
+Total Loss:  tensor(71.5639, grad_fn=<AddBackward0>)
+Gradients:
+1.7084100246429443
+Gradient before update: tensor(2.1672)
+Gradient after update: tensor(2.1672)
+Total Loss:  tensor(71.5639, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 0.7422,  0.6807, -0.1415,  0.0000,  0.0000,  0.0000],
+        [ 2.3113,  2.4738,  0.0000,  0.0000,  0.0000,  0.0000],
+        [ 2.4103,  0.9096,  0.1033,  0.0000,  0.0000,  0.0000],
+        [ 3.0471,  3.2105,  1.5573,  0.0000,  0.0000,  0.0000],
+        [ 1.3772,  2.8212,  1.6299,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  7
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(71.3718, grad_fn=<AddBackward0>)
+Total Loss:  tensor(71.3718, grad_fn=<AddBackward0>)
+Gradients:
+1.5854421854019165
+Gradient before update: tensor(1.5415)
+Gradient after update: tensor(1.5415)
+Iteration:  8
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(71.1831, grad_fn=<AddBackward0>)
+Total Loss:  tensor(71.1831, grad_fn=<AddBackward0>)
+Gradients:
+1.5396454334259033
+Gradient before update: tensor(1.1705)
+Gradient after update: tensor(1.1705)
+Total Loss:  tensor(71.1831, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 0.8508,  0.8816, -0.2513,  0.0000,  0.0000,  0.0000],
+        [ 2.1215,  2.4804,  0.0629,  0.0000,  0.0000,  0.0000],
+        [ 2.2730,  0.8105,  0.2450,  0.0000,  0.0000,  0.0000],
+        [ 3.1339,  3.2118,  1.4981,  0.0000,  0.0000,  0.0000],
+        [ 1.2519,  2.6374,  1.6460,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  9
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(71.0056, grad_fn=<AddBackward0>)
+Total Loss:  tensor(71.0056, grad_fn=<AddBackward0>)
+Gradients:
+1.3622220754623413
+Gradient before update: tensor(1.0091)
+Gradient after update: tensor(1.0091)
+Iteration:  10
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.8595, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.8595, grad_fn=<AddBackward0>)
+Gradients:
+1.275905966758728
+Gradient before update: tensor(0.5565)
+Gradient after update: tensor(0.5565)
+Total Loss:  tensor(70.8595, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 0.8729,  1.0869, -0.3312,  0.0000,  0.0000,  0.0000],
+        [ 1.9356,  2.4554,  0.0593,  0.0000,  0.0000,  0.0000],
+        [ 2.1381,  0.7335,  0.3875,  0.0000,  0.0000,  0.0000],
+        [ 3.2030,  3.2133,  1.4515,  0.0000,  0.0000,  0.0000],
+        [ 1.1499,  2.4833,  1.6446,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  11
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.7253, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.7253, grad_fn=<AddBackward0>)
+Gradients:
+1.0456557273864746
+Gradient before update: tensor(0.3048)
+Gradient after update: tensor(0.3048)
+Iteration:  12
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.6068, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.6068, grad_fn=<AddBackward0>)
+Gradients:
+0.8744344115257263
+Gradient before update: tensor(-0.0220)
+Gradient after update: tensor(-0.0220)
+Total Loss:  tensor(70.6068, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 0.9696,  1.2918, -0.3135,  0.0000,  0.0000,  0.0000],
+        [ 1.7567,  2.4156,  0.0197,  0.0000,  0.0000,  0.0000],
+        [ 2.0061,  0.6743,  0.4101,  0.0000,  0.0000,  0.0000],
+        [ 3.2588,  3.2137,  1.4140,  0.0000,  0.0000,  0.0000],
+        [ 1.0676,  2.3550,  1.6512,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  13
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0069, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.5125, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.5194, grad_fn=<AddBackward0>)
+Gradients:
+0.6516075730323792
+Gradient before update: tensor(-0.6816)
+Gradient after update: tensor(-0.6816)
+Iteration:  14
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0433, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4474, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4908, grad_fn=<AddBackward0>)
+Gradients:
+0.6162430644035339
+Gradient before update: tensor(0.7472)
+Gradient after update: tensor(0.7472)
+Total Loss:  tensor(70.4908, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.0200,  1.4770, -0.3539,  0.0000,  0.0000,  0.0000],
+        [ 1.5976,  2.3745,  0.0836,  0.0000,  0.0000,  0.0000],
+        [ 1.9386,  0.6276,  0.5002,  0.0000,  0.0000,  0.0000],
+        [ 3.3043,  3.2135,  1.3814,  0.0000,  0.0000,  0.0000],
+        [ 1.0027,  2.2523,  1.7053,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  15
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.1003, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4255, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.5257, grad_fn=<AddBackward0>)
+Gradients:
+1.1380828619003296
+Gradient before update: tensor(-0.5157)
+Gradient after update: tensor(-0.5157)
+Iteration:  16
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.1112, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4257, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.5369, grad_fn=<AddBackward0>)
+Gradients:
+1.2713372707366943
+Gradient before update: tensor(-0.7011)
+Gradient after update: tensor(-0.7011)
+Total Loss:  tensor(70.5369, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 0.9263,  1.5864, -0.4851,  0.0000,  0.0000,  0.0000],
+        [ 1.4848,  2.3580,  0.2157,  0.0000,  0.0000,  0.0000],
+        [ 1.8791,  0.5912,  0.5792,  0.0000,  0.0000,  0.0000],
+        [ 3.3417,  3.2130,  1.3526,  0.0000,  0.0000,  0.0000],
+        [ 0.9562,  2.1674,  1.7294,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  17
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0821, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4529, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.5350, grad_fn=<AddBackward0>)
+Gradients:
+0.9584332704544067
+Gradient before update: tensor(-0.2230)
+Gradient after update: tensor(-0.2230)
+Iteration:  18
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0345, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4806, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.5151, grad_fn=<AddBackward0>)
+Gradients:
+0.7552230358123779
+Gradient before update: tensor(-1.1276)
+Gradient after update: tensor(-1.1276)
+Total Loss:  tensor(70.5151, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 0.8796,  1.6355, -0.6531,  0.0000,  0.0000,  0.0000],
+        [ 1.4077,  2.3589,  0.3781,  0.0000,  0.0000,  0.0000],
+        [ 1.8197,  0.5621,  0.6506,  0.0000,  0.0000,  0.0000],
+        [ 3.3726,  3.2124,  1.3281,  0.0000,  0.0000,  0.0000],
+        [ 0.9272,  2.0967,  1.7592,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  19
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0073, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4985, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.5059, grad_fn=<AddBackward0>)
+Gradients:
+0.7166053056716919
+Gradient before update: tensor(-0.6142)
+Gradient after update: tensor(-0.6142)
+Iteration:  20
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0021, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4876, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4897, grad_fn=<AddBackward0>)
+Gradients:
+0.711492121219635
+Gradient before update: tensor(-1.1553)
+Gradient after update: tensor(-1.1553)
+Total Loss:  tensor(70.4897, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 0.9315,  1.6656, -0.8269,  0.0000,  0.0000,  0.0000],
+        [ 1.3536,  2.3636,  0.5282,  0.0000,  0.0000,  0.0000],
+        [ 1.7496,  0.5396,  0.7197,  0.0000,  0.0000,  0.0000],
+        [ 3.3981,  3.2118,  1.3113,  0.0000,  0.0000,  0.0000],
+        [ 0.9142,  2.0398,  1.8031,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  21
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0046, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4760, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4806, grad_fn=<AddBackward0>)
+Gradients:
+0.7381354570388794
+Gradient before update: tensor(-1.2031)
+Gradient after update: tensor(-1.2031)
+Iteration:  22
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4597, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4597, grad_fn=<AddBackward0>)
+Gradients:
+0.6644489169120789
+Gradient before update: tensor(-0.8884)
+Gradient after update: tensor(-0.8884)
+Total Loss:  tensor(70.4597, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.0463,  1.6868, -0.9625,  0.0000,  0.0000,  0.0000],
+        [ 1.3116,  2.3702,  0.6396,  0.0000,  0.0000,  0.0000],
+        [ 1.6702,  0.5229,  0.7803,  0.0000,  0.0000,  0.0000],
+        [ 3.4193,  3.2113,  1.3007,  0.0000,  0.0000,  0.0000],
+        [ 0.9159,  1.9870,  1.9101,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  23
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0022, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4397, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4419, grad_fn=<AddBackward0>)
+Gradients:
+0.5446664690971375
+Gradient before update: tensor(-0.6649)
+Gradient after update: tensor(-0.6649)
+Iteration:  24
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0028, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4271, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4300, grad_fn=<AddBackward0>)
+Gradients:
+0.39631059765815735
+Gradient before update: tensor(-0.4893)
+Gradient after update: tensor(-0.4893)
+Total Loss:  tensor(70.4300, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.1724,  1.6960, -1.0742,  0.0000,  0.0000,  0.0000],
+        [ 1.2788,  2.3807,  0.7081,  0.0000,  0.0000,  0.0000],
+        [ 1.5809,  0.5119,  0.8498,  0.0000,  0.0000,  0.0000],
+        [ 3.4368,  3.2105,  1.2937,  0.0000,  0.0000,  0.0000],
+        [ 0.9274,  1.9411,  2.0260,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  25
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0046, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4158, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4204, grad_fn=<AddBackward0>)
+Gradients:
+0.4563230574131012
+Gradient before update: tensor(-0.6158)
+Gradient after update: tensor(-0.6158)
+Iteration:  26
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4150, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4150, grad_fn=<AddBackward0>)
+Gradients:
+0.46270644664764404
+Gradient before update: tensor(-0.4537)
+Gradient after update: tensor(-0.4537)
+Total Loss:  tensor(70.4150, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.2720,  1.7034, -1.1610,  0.0000,  0.0000,  0.0000],
+        [ 1.2556,  2.3914,  0.7484,  0.0000,  0.0000,  0.0000],
+        [ 1.4841,  0.5065,  0.9083,  0.0000,  0.0000,  0.0000],
+        [ 3.4514,  3.2092,  1.2886,  0.0000,  0.0000,  0.0000],
+        [ 0.9463,  1.9000,  2.1678,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  27
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.4056, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.4056, grad_fn=<AddBackward0>)
+Gradients:
+0.49435216188430786
+Gradient before update: tensor(-0.6643)
+Gradient after update: tensor(-0.6643)
+Iteration:  28
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.3925, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.3925, grad_fn=<AddBackward0>)
+Gradients:
+0.5213068127632141
+Gradient before update: tensor(-0.6423)
+Gradient after update: tensor(-0.6423)
+Total Loss:  tensor(70.3925, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.3576,  1.7116, -1.2265,  0.0000,  0.0000,  0.0000],
+        [ 1.2417,  2.4000,  0.7935,  0.0000,  0.0000,  0.0000],
+        [ 1.3528,  0.5092,  0.9478,  0.0000,  0.0000,  0.0000],
+        [ 3.4635,  3.2076,  1.2849,  0.0000,  0.0000,  0.0000],
+        [ 0.9722,  1.8609,  2.2867,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  29
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.3765, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.3765, grad_fn=<AddBackward0>)
+Gradients:
+0.5168112516403198
+Gradient before update: tensor(-0.7985)
+Gradient after update: tensor(-0.7985)
+Iteration:  30
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.3464, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.3464, grad_fn=<AddBackward0>)
+Gradients:
+0.5861598253250122
+Gradient before update: tensor(-0.3495)
+Gradient after update: tensor(-0.3495)
+Total Loss:  tensor(70.3464, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.4349,  1.7225, -1.2868,  0.0000,  0.0000,  0.0000],
+        [ 1.2328,  2.4070,  0.8459,  0.0000,  0.0000,  0.0000],
+        [ 1.1819,  0.5235,  0.9796,  0.0000,  0.0000,  0.0000],
+        [ 3.4735,  3.2059,  1.2818,  0.0000,  0.0000,  0.0000],
+        [ 1.0022,  1.8298,  2.3919,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  31
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.3096, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.3096, grad_fn=<AddBackward0>)
+Gradients:
+0.6839083433151245
+Gradient before update: tensor(-0.3727)
+Gradient after update: tensor(-0.3727)
+Iteration:  32
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.2581, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.2581, grad_fn=<AddBackward0>)
+Gradients:
+0.8880096077919006
+Gradient before update: tensor(-0.7064)
+Gradient after update: tensor(-0.7064)
+Total Loss:  tensor(70.2581, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.4902,  1.7440, -1.3458,  0.0000,  0.0000,  0.0000],
+        [ 1.2233,  2.4147,  0.8873,  0.0000,  0.0000,  0.0000],
+        [ 0.9719,  0.5541,  0.9983,  0.0000,  0.0000,  0.0000],
+        [ 3.4818,  3.2038,  1.2798,  0.0000,  0.0000,  0.0000],
+        [ 1.0335,  1.7957,  2.4739,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  33
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.1992, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.1992, grad_fn=<AddBackward0>)
+Gradients:
+0.872926652431488
+Gradient before update: tensor(-0.6762)
+Gradient after update: tensor(-0.6762)
+Iteration:  34
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.1440, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.1440, grad_fn=<AddBackward0>)
+Gradients:
+0.833742082118988
+Gradient before update: tensor(-0.3940)
+Gradient after update: tensor(-0.3940)
+Total Loss:  tensor(70.1440, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5243,  1.7767, -1.4001,  0.0000,  0.0000,  0.0000],
+        [ 1.2144,  2.4213,  0.9276,  0.0000,  0.0000,  0.0000],
+        [ 0.7412,  0.6049,  0.9865,  0.0000,  0.0000,  0.0000],
+        [ 3.4887,  3.2018,  1.2784,  0.0000,  0.0000,  0.0000],
+        [ 1.0648,  1.7578,  2.5283,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  35
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.1053, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.1053, grad_fn=<AddBackward0>)
+Gradients:
+0.7256783246994019
+Gradient before update: tensor(-0.4169)
+Gradient after update: tensor(-0.4169)
+Iteration:  36
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.0875, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.0875, grad_fn=<AddBackward0>)
+Gradients:
+0.7207843065261841
+Gradient before update: tensor(-0.8062)
+Gradient after update: tensor(-0.8062)
+Total Loss:  tensor(70.0875, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5380,  1.8134, -1.4666,  0.0000,  0.0000,  0.0000],
+        [ 1.2035,  2.4285,  0.9462,  0.0000,  0.0000,  0.0000],
+        [ 0.5540,  0.6709,  0.9438,  0.0000,  0.0000,  0.0000],
+        [ 3.4943,  3.2002,  1.2783,  0.0000,  0.0000,  0.0000],
+        [ 1.0928,  1.7098,  2.5735,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  37
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.0854, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.0854, grad_fn=<AddBackward0>)
+Gradients:
+0.7395592927932739
+Gradient before update: tensor(-1.0058)
+Gradient after update: tensor(-1.0058)
+Iteration:  38
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.0828, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.0828, grad_fn=<AddBackward0>)
+Gradients:
+0.8081403374671936
+Gradient before update: tensor(-1.3588)
+Gradient after update: tensor(-1.3588)
+Total Loss:  tensor(70.0828, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5433,  1.8488, -1.5187,  0.0000,  0.0000,  0.0000],
+        [ 1.1912,  2.4357,  0.9565,  0.0000,  0.0000,  0.0000],
+        [ 0.5146,  0.7466,  0.9206,  0.0000,  0.0000,  0.0000],
+        [ 3.4990,  3.1989,  1.2795,  0.0000,  0.0000,  0.0000],
+        [ 1.1172,  1.6693,  2.6061,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  39
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.0640, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.0640, grad_fn=<AddBackward0>)
+Gradients:
+0.8189468383789062
+Gradient before update: tensor(-1.3817)
+Gradient after update: tensor(-1.3817)
+Iteration:  40
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(70.0254, grad_fn=<AddBackward0>)
+Total Loss:  tensor(70.0254, grad_fn=<AddBackward0>)
+Gradients:
+0.8000991940498352
+Gradient before update: tensor(-1.3149)
+Gradient after update: tensor(-1.3149)
+Total Loss:  tensor(70.0254, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5476,  1.8868, -1.5318,  0.0000,  0.0000,  0.0000],
+        [ 1.1777,  2.4423,  0.9581,  0.0000,  0.0000,  0.0000],
+        [ 0.5932,  0.8288,  0.8974,  0.0000,  0.0000,  0.0000],
+        [ 3.5028,  3.1980,  1.2819,  0.0000,  0.0000,  0.0000],
+        [ 1.1372,  1.6487,  2.6307,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  41
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.9749, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.9749, grad_fn=<AddBackward0>)
+Gradients:
+0.8115464448928833
+Gradient before update: tensor(-1.4794)
+Gradient after update: tensor(-1.4794)
+Iteration:  42
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.9119, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.9119, grad_fn=<AddBackward0>)
+Gradients:
+0.825275182723999
+Gradient before update: tensor(-1.4775)
+Gradient after update: tensor(-1.4775)
+Total Loss:  tensor(69.9119, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5520,  1.9242, -1.5110,  0.0000,  0.0000,  0.0000],
+        [ 1.1611,  2.4475,  0.9595,  0.0000,  0.0000,  0.0000],
+        [ 0.7356,  0.9178,  0.9832,  0.0000,  0.0000,  0.0000],
+        [ 3.5060,  3.1972,  1.2859,  0.0000,  0.0000,  0.0000],
+        [ 1.1534,  1.6449,  2.6931,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  43
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.8497, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.8497, grad_fn=<AddBackward0>)
+Gradients:
+0.7230722904205322
+Gradient before update: tensor(-0.7872)
+Gradient after update: tensor(-0.7872)
+Iteration:  44
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.7939, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.7939, grad_fn=<AddBackward0>)
+Gradients:
+0.7954196929931641
+Gradient before update: tensor(-0.8350)
+Gradient after update: tensor(-0.8350)
+Total Loss:  tensor(69.7939, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5613,  1.9571, -1.4875,  0.0000,  0.0000,  0.0000],
+        [ 1.1424,  2.4537,  0.9481,  0.0000,  0.0000,  0.0000],
+        [ 0.8977,  1.0156,  1.0799,  0.0000,  0.0000,  0.0000],
+        [ 3.5085,  3.1965,  1.2922,  0.0000,  0.0000,  0.0000],
+        [ 1.1643,  1.6438,  2.7477,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  45
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.7546, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.7546, grad_fn=<AddBackward0>)
+Gradients:
+0.7563710808753967
+Gradient before update: tensor(-0.6188)
+Gradient after update: tensor(-0.6188)
+Iteration:  46
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.7222, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.7222, grad_fn=<AddBackward0>)
+Gradients:
+0.8326143026351929
+Gradient before update: tensor(-0.7479)
+Gradient after update: tensor(-0.7479)
+Total Loss:  tensor(69.7222, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5772,  1.9852, -1.4758,  0.0000,  0.0000,  0.0000],
+        [ 1.1275,  2.4599,  0.9187,  0.0000,  0.0000,  0.0000],
+        [ 1.0246,  1.1238,  1.0894,  0.0000,  0.0000,  0.0000],
+        [ 3.5107,  3.1955,  1.3005,  0.0000,  0.0000,  0.0000],
+        [ 1.1729,  1.6557,  2.7656,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  47
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0101, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.6933, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.7034, grad_fn=<AddBackward0>)
+Gradients:
+0.4356950521469116
+Gradient before update: tensor(-0.1196)
+Gradient after update: tensor(-0.1196)
+Iteration:  48
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0492, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.6644, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.7136, grad_fn=<AddBackward0>)
+Gradients:
+0.5091099143028259
+Gradient before update: tensor(0.0451)
+Gradient after update: tensor(0.0451)
+Total Loss:  tensor(69.7136, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.5901,  2.0105, -1.4676,  0.0000,  0.0000,  0.0000],
+        [ 1.1228,  2.4678,  0.8847,  0.0000,  0.0000,  0.0000],
+        [ 1.0816,  1.2242,  1.0941,  0.0000,  0.0000,  0.0000],
+        [ 3.5125,  3.1946,  1.3101,  0.0000,  0.0000,  0.0000],
+        [ 1.1795,  1.6825,  2.7602,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  49
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0701, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.6333, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.7033, grad_fn=<AddBackward0>)
+Gradients:
+0.6587103009223938
+Gradient before update: tensor(-0.3194)
+Gradient after update: tensor(-0.3194)
+Iteration:  50
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0636, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.6062, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.6698, grad_fn=<AddBackward0>)
+Gradients:
+1.0384368896484375
+Gradient before update: tensor(-0.9832)
+Gradient after update: tensor(-0.9832)
+Total Loss:  tensor(69.6698, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.6149,  2.0304, -1.4589,  0.0000,  0.0000,  0.0000],
+        [ 1.1224,  2.4981,  0.8020,  0.0000,  0.0000,  0.0000],
+        [ 1.0749,  1.3126,  1.2329,  0.0000,  0.0000,  0.0000],
+        [ 3.5140,  3.1942,  1.3223,  0.0000,  0.0000,  0.0000],
+        [ 1.1827,  1.7120,  2.7724,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  51
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0388, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.5730, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.6118, grad_fn=<AddBackward0>)
+Gradients:
+0.9330734610557556
+Gradient before update: tensor(-0.9061)
+Gradient after update: tensor(-0.9061)
+Iteration:  52
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0151, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.5505, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.5656, grad_fn=<AddBackward0>)
+Gradients:
+0.8282074332237244
+Gradient before update: tensor(-0.5185)
+Gradient after update: tensor(-0.5185)
+Total Loss:  tensor(69.5656, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.6655,  2.0447, -1.4562,  0.0000,  0.0000,  0.0000],
+        [ 1.1293,  2.5564,  0.6717,  0.0000,  0.0000,  0.0000],
+        [ 1.0377,  1.4027,  1.3506,  0.0000,  0.0000,  0.0000],
+        [ 3.5152,  3.1936,  1.3359,  0.0000,  0.0000,  0.0000],
+        [ 1.1811,  1.7381,  2.7859,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  53
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0070, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.5382, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.5452, grad_fn=<AddBackward0>)
+Gradients:
+0.27640601992607117
+Gradient before update: tensor(-0.3179)
+Gradient after update: tensor(-0.3179)
+Iteration:  54
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0127, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.5264, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.5391, grad_fn=<AddBackward0>)
+Gradients:
+0.2687077522277832
+Gradient before update: tensor(-0.7214)
+Gradient after update: tensor(-0.7214)
+Total Loss:  tensor(69.5391, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7116,  2.0547, -1.4551,  0.0000,  0.0000,  0.0000],
+        [ 1.1410,  2.6183,  0.5591,  0.0000,  0.0000,  0.0000],
+        [ 1.0077,  1.4807,  1.4993,  0.0000,  0.0000,  0.0000],
+        [ 3.5161,  3.1932,  1.3502,  0.0000,  0.0000,  0.0000],
+        [ 1.1786,  1.7606,  2.7975,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  55
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0073, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.5160, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.5233, grad_fn=<AddBackward0>)
+Gradients:
+0.5101276636123657
+Gradient before update: tensor(-0.8450)
+Gradient after update: tensor(-0.8450)
+Iteration:  56
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.5031, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.5031, grad_fn=<AddBackward0>)
+Gradients:
+0.27078574895858765
+Gradient before update: tensor(-0.1347)
+Gradient after update: tensor(-0.1347)
+Total Loss:  tensor(69.5031, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7633,  2.0602, -1.4474,  0.0000,  0.0000,  0.0000],
+        [ 1.1551,  2.6725,  0.4409,  0.0000,  0.0000,  0.0000],
+        [ 1.0053,  1.5518,  1.6122,  0.0000,  0.0000,  0.0000],
+        [ 3.5168,  3.1927,  1.3602,  0.0000,  0.0000,  0.0000],
+        [ 1.1782,  1.7777,  2.9104,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  57
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0096, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4967, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.5064, grad_fn=<AddBackward0>)
+Gradients:
+0.5649839639663696
+Gradient before update: tensor(0.3936)
+Gradient after update: tensor(0.3936)
+Iteration:  58
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4945, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4945, grad_fn=<AddBackward0>)
+Gradients:
+0.21551136672496796
+Gradient before update: tensor(-0.1730)
+Gradient after update: tensor(-0.1730)
+Total Loss:  tensor(69.4945, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.8057,  2.0610, -1.4508,  0.0000,  0.0000,  0.0000],
+        [ 1.1622,  2.7172,  0.3492,  0.0000,  0.0000,  0.0000],
+        [ 1.0283,  1.6140,  1.5370,  0.0000,  0.0000,  0.0000],
+        [ 3.5173,  3.1924,  1.3650,  0.0000,  0.0000,  0.0000],
+        [ 1.1778,  1.7932,  3.0052,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  59
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4948, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4948, grad_fn=<AddBackward0>)
+Gradients:
+0.23458053171634674
+Gradient before update: tensor(0.0645)
+Gradient after update: tensor(0.0645)
+Iteration:  60
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4903, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4903, grad_fn=<AddBackward0>)
+Gradients:
+0.22877216339111328
+Gradient before update: tensor(0.1609)
+Gradient after update: tensor(0.1609)
+Total Loss:  tensor(69.4903, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.8320,  2.0645, -1.4762,  0.0000,  0.0000,  0.0000],
+        [ 1.1661,  2.7516,  0.2677,  0.0000,  0.0000,  0.0000],
+        [ 1.0707,  1.6661,  1.4642,  0.0000,  0.0000,  0.0000],
+        [ 3.5177,  3.1921,  1.3663,  0.0000,  0.0000,  0.0000],
+        [ 1.1794,  1.8023,  3.0670,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  61
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4900, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4900, grad_fn=<AddBackward0>)
+Gradients:
+0.2277691811323166
+Gradient before update: tensor(0.0722)
+Gradient after update: tensor(0.0722)
+Iteration:  62
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4897, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4897, grad_fn=<AddBackward0>)
+Gradients:
+0.2112632840871811
+Gradient before update: tensor(0.1055)
+Gradient after update: tensor(0.1055)
+Total Loss:  tensor(69.4897, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.8356,  2.0714, -1.4869,  0.0000,  0.0000,  0.0000],
+        [ 1.1573,  2.7779,  0.2002,  0.0000,  0.0000,  0.0000],
+        [ 1.1166,  1.7061,  1.4038,  0.0000,  0.0000,  0.0000],
+        [ 3.5180,  3.1917,  1.3652,  0.0000,  0.0000,  0.0000],
+        [ 1.1839,  1.8055,  3.1180,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  63
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4904, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4904, grad_fn=<AddBackward0>)
+Gradients:
+0.22904065251350403
+Gradient before update: tensor(0.0176)
+Gradient after update: tensor(0.0176)
+Iteration:  64
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4917, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4917, grad_fn=<AddBackward0>)
+Gradients:
+0.22811411321163177
+Gradient before update: tensor(0.1441)
+Gradient after update: tensor(0.1441)
+Total Loss:  tensor(69.4917, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.8219,  2.0767, -1.4682,  0.0000,  0.0000,  0.0000],
+        [ 1.1430,  2.7939,  0.1655,  0.0000,  0.0000,  0.0000],
+        [ 1.1587,  1.7376,  1.3592,  0.0000,  0.0000,  0.0000],
+        [ 3.5181,  3.1913,  1.3617,  0.0000,  0.0000,  0.0000],
+        [ 1.1895,  1.8001,  3.1719,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  65
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4949, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4949, grad_fn=<AddBackward0>)
+Gradients:
+0.2355799823999405
+Gradient before update: tensor(0.3655)
+Gradient after update: tensor(0.3655)
+Iteration:  66
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4969, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4969, grad_fn=<AddBackward0>)
+Gradients:
+0.1989089697599411
+Gradient before update: tensor(0.3297)
+Gradient after update: tensor(0.3297)
+Total Loss:  tensor(69.4969, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.8009,  2.0804, -1.4539,  0.0000,  0.0000,  0.0000],
+        [ 1.1258,  2.8012,  0.1709,  0.0000,  0.0000,  0.0000],
+        [ 1.1871,  1.7602,  1.3316,  0.0000,  0.0000,  0.0000],
+        [ 3.5182,  3.1911,  1.3556,  0.0000,  0.0000,  0.0000],
+        [ 1.1908,  1.7891,  3.2239,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  67
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4957, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4957, grad_fn=<AddBackward0>)
+Gradients:
+0.1938522756099701
+Gradient before update: tensor(0.2507)
+Gradient after update: tensor(0.2507)
+Iteration:  68
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4915, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4915, grad_fn=<AddBackward0>)
+Gradients:
+0.15398474037647247
+Gradient before update: tensor(0.0721)
+Gradient after update: tensor(0.0721)
+Total Loss:  tensor(69.4915, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7800,  2.0859, -1.4579,  0.0000,  0.0000,  0.0000],
+        [ 1.1067,  2.8029,  0.2067,  0.0000,  0.0000,  0.0000],
+        [ 1.2106,  1.7775,  1.2801,  0.0000,  0.0000,  0.0000],
+        [ 3.5182,  3.1910,  1.3465,  0.0000,  0.0000,  0.0000],
+        [ 1.1904,  1.7741,  3.2719,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  69
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4890, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4890, grad_fn=<AddBackward0>)
+Gradients:
+0.233446404337883
+Gradient before update: tensor(-0.1682)
+Gradient after update: tensor(-0.1682)
+Iteration:  70
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4865, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4865, grad_fn=<AddBackward0>)
+Gradients:
+0.15403711795806885
+Gradient before update: tensor(-0.0177)
+Gradient after update: tensor(-0.0177)
+Total Loss:  tensor(69.4865, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7629,  2.0958, -1.4633,  0.0000,  0.0000,  0.0000],
+        [ 1.0895,  2.8014,  0.2725,  0.0000,  0.0000,  0.0000],
+        [ 1.2289,  1.7939,  1.2492,  0.0000,  0.0000,  0.0000],
+        [ 3.5181,  3.1908,  1.3391,  0.0000,  0.0000,  0.0000],
+        [ 1.1910,  1.7552,  3.2767,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  71
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4888, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4888, grad_fn=<AddBackward0>)
+Gradients:
+0.2083442062139511
+Gradient before update: tensor(0.1135)
+Gradient after update: tensor(0.1135)
+Iteration:  72
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0020, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4899, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4919, grad_fn=<AddBackward0>)
+Gradients:
+0.31830036640167236
+Gradient before update: tensor(0.1707)
+Gradient after update: tensor(0.1707)
+Total Loss:  tensor(69.4919, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7638,  2.1134, -1.4713,  0.0000,  0.0000,  0.0000],
+        [ 1.0764,  2.7998,  0.2803,  0.0000,  0.0000,  0.0000],
+        [ 1.2421,  1.8070,  1.2496,  0.0000,  0.0000,  0.0000],
+        [ 3.5179,  3.1907,  1.3374,  0.0000,  0.0000,  0.0000],
+        [ 1.1900,  1.7358,  3.2547,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  73
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0007, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4882, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4889, grad_fn=<AddBackward0>)
+Gradients:
+0.31085944175720215
+Gradient before update: tensor(0.2199)
+Gradient after update: tensor(0.2199)
+Iteration:  74
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4869, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4869, grad_fn=<AddBackward0>)
+Gradients:
+0.2036314457654953
+Gradient before update: tensor(-0.0019)
+Gradient after update: tensor(-0.0019)
+Total Loss:  tensor(69.4869, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7779,  2.1304, -1.4744,  0.0000,  0.0000,  0.0000],
+        [ 1.0722,  2.8007,  0.2228,  0.0000,  0.0000,  0.0000],
+        [ 1.2500,  1.8163,  1.2473,  0.0000,  0.0000,  0.0000],
+        [ 3.5177,  3.1908,  1.3411,  0.0000,  0.0000,  0.0000],
+        [ 1.1851,  1.7230,  3.2484,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  75
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4884, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4884, grad_fn=<AddBackward0>)
+Gradients:
+0.21447452902793884
+Gradient before update: tensor(0.1673)
+Gradient after update: tensor(0.1673)
+Iteration:  76
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4898, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4898, grad_fn=<AddBackward0>)
+Gradients:
+0.23934900760650635
+Gradient before update: tensor(0.1772)
+Gradient after update: tensor(0.1772)
+Total Loss:  tensor(69.4898, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7897,  2.1348, -1.4746,  0.0000,  0.0000,  0.0000],
+        [ 1.0789,  2.7987,  0.1935,  0.0000,  0.0000,  0.0000],
+        [ 1.2512,  1.8203,  1.2410,  0.0000,  0.0000,  0.0000],
+        [ 3.5175,  3.1911,  1.3482,  0.0000,  0.0000,  0.0000],
+        [ 1.1763,  1.7153,  3.2739,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  77
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4902, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4902, grad_fn=<AddBackward0>)
+Gradients:
+0.21881912648677826
+Gradient before update: tensor(0.2507)
+Gradient after update: tensor(0.2507)
+Iteration:  78
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4893, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4893, grad_fn=<AddBackward0>)
+Gradients:
+0.23019590973854065
+Gradient before update: tensor(0.2525)
+Gradient after update: tensor(0.2525)
+Total Loss:  tensor(69.4893, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7985,  2.1300, -1.4752,  0.0000,  0.0000,  0.0000],
+        [ 1.0862,  2.7936,  0.2110,  0.0000,  0.0000,  0.0000],
+        [ 1.2486,  1.8201,  1.2274,  0.0000,  0.0000,  0.0000],
+        [ 3.5172,  3.1915,  1.3534,  0.0000,  0.0000,  0.0000],
+        [ 1.1641,  1.7099,  3.2759,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  79
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4864, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4864, grad_fn=<AddBackward0>)
+Gradients:
+0.1783522516489029
+Gradient before update: tensor(0.1704)
+Gradient after update: tensor(0.1704)
+Iteration:  80
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4833, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4833, grad_fn=<AddBackward0>)
+Gradients:
+0.1204870194196701
+Gradient before update: tensor(-0.0291)
+Gradient after update: tensor(-0.0291)
+Total Loss:  tensor(69.4833, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7925,  2.1197, -1.4679,  0.0000,  0.0000,  0.0000],
+        [ 1.0922,  2.7885,  0.2576,  0.0000,  0.0000,  0.0000],
+        [ 1.2497,  1.8170,  1.2134,  0.0000,  0.0000,  0.0000],
+        [ 3.5169,  3.1919,  1.3524,  0.0000,  0.0000,  0.0000],
+        [ 1.1514,  1.7066,  3.2552,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  81
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4830, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4830, grad_fn=<AddBackward0>)
+Gradients:
+0.12680229544639587
+Gradient before update: tensor(0.0866)
+Gradient after update: tensor(0.0866)
+Iteration:  82
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0014, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4844, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4858, grad_fn=<AddBackward0>)
+Gradients:
+0.3107728362083435
+Gradient before update: tensor(0.2043)
+Gradient after update: tensor(0.2043)
+Total Loss:  tensor(69.4858, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7811,  2.1118, -1.4641,  0.0000,  0.0000,  0.0000],
+        [ 1.0976,  2.7886,  0.2687,  0.0000,  0.0000,  0.0000],
+        [ 1.2528,  1.8122,  1.2167,  0.0000,  0.0000,  0.0000],
+        [ 3.5165,  3.1920,  1.3483,  0.0000,  0.0000,  0.0000],
+        [ 1.1387,  1.7030,  3.2436,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  83
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(0.0004, grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4831, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4835, grad_fn=<AddBackward0>)
+Gradients:
+0.2998339831829071
+Gradient before update: tensor(0.1163)
+Gradient after update: tensor(0.1163)
+Iteration:  84
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4817, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4817, grad_fn=<AddBackward0>)
+Gradients:
+0.08827187120914459
+Gradient before update: tensor(-0.1559)
+Gradient after update: tensor(-0.1559)
+Total Loss:  tensor(69.4817, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7673,  2.1096, -1.4634,  0.0000,  0.0000,  0.0000],
+        [ 1.1034,  2.7957,  0.2223,  0.0000,  0.0000,  0.0000],
+        [ 1.2542,  1.8077,  1.2261,  0.0000,  0.0000,  0.0000],
+        [ 3.5161,  3.1922,  1.3444,  0.0000,  0.0000,  0.0000],
+        [ 1.1282,  1.6974,  3.2390,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  85
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4834, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4834, grad_fn=<AddBackward0>)
+Gradients:
+0.1659182608127594
+Gradient before update: tensor(-0.3304)
+Gradient after update: tensor(-0.3304)
+Iteration:  86
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4849, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4849, grad_fn=<AddBackward0>)
+Gradients:
+0.19460688531398773
+Gradient before update: tensor(-0.2950)
+Gradient after update: tensor(-0.2950)
+Total Loss:  tensor(69.4849, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7655,  2.1134, -1.4716,  0.0000,  0.0000,  0.0000],
+        [ 1.1092,  2.8017,  0.2149,  0.0000,  0.0000,  0.0000],
+        [ 1.2573,  1.8034,  1.2412,  0.0000,  0.0000,  0.0000],
+        [ 3.5157,  3.1925,  1.3414,  0.0000,  0.0000,  0.0000],
+        [ 1.1225,  1.6944,  3.2499,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  87
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4846, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4846, grad_fn=<AddBackward0>)
+Gradients:
+0.19579629600048065
+Gradient before update: tensor(-0.3030)
+Gradient after update: tensor(-0.3030)
+Iteration:  88
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4824, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4824, grad_fn=<AddBackward0>)
+Gradients:
+0.15667210519313812
+Gradient before update: tensor(-0.1296)
+Gradient after update: tensor(-0.1296)
+Total Loss:  tensor(69.4824, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7749,  2.1189, -1.4740,  0.0000,  0.0000,  0.0000],
+        [ 1.1104,  2.8047,  0.2501,  0.0000,  0.0000,  0.0000],
+        [ 1.2667,  1.7982,  1.2600,  0.0000,  0.0000,  0.0000],
+        [ 3.5153,  3.1925,  1.3425,  0.0000,  0.0000,  0.0000],
+        [ 1.1206,  1.7000,  3.2532,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  89
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4813, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4813, grad_fn=<AddBackward0>)
+Gradients:
+0.1069243848323822
+Gradient before update: tensor(0.1209)
+Gradient after update: tensor(0.1209)
+Iteration:  90
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4825, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4825, grad_fn=<AddBackward0>)
+Gradients:
+0.16444391012191772
+Gradient before update: tensor(0.3169)
+Gradient after update: tensor(0.3169)
+Total Loss:  tensor(69.4825, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7821,  2.1214, -1.4742,  0.0000,  0.0000,  0.0000],
+        [ 1.1069,  2.8044,  0.2713,  0.0000,  0.0000,  0.0000],
+        [ 1.2721,  1.7914,  1.2749,  0.0000,  0.0000,  0.0000],
+        [ 3.5149,  3.1925,  1.3461,  0.0000,  0.0000,  0.0000],
+        [ 1.1219,  1.7082,  3.2451,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  91
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4834, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4834, grad_fn=<AddBackward0>)
+Gradients:
+0.2096184939146042
+Gradient before update: tensor(0.3523)
+Gradient after update: tensor(0.3523)
+Iteration:  92
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4819, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4819, grad_fn=<AddBackward0>)
+Gradients:
+0.16047918796539307
+Gradient before update: tensor(0.2391)
+Gradient after update: tensor(0.2391)
+Total Loss:  tensor(69.4819, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7772,  2.1192, -1.4751,  0.0000,  0.0000,  0.0000],
+        [ 1.1023,  2.8015,  0.2503,  0.0000,  0.0000,  0.0000],
+        [ 1.2640,  1.7838,  1.2672,  0.0000,  0.0000,  0.0000],
+        [ 3.5144,  3.1928,  1.3488,  0.0000,  0.0000,  0.0000],
+        [ 1.1267,  1.7128,  3.2427,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  93
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4802, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4802, grad_fn=<AddBackward0>)
+Gradients:
+0.08435644209384918
+Gradient before update: tensor(0.0551)
+Gradient after update: tensor(0.0551)
+Iteration:  94
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4803, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4803, grad_fn=<AddBackward0>)
+Gradients:
+0.08923091739416122
+Gradient before update: tensor(-0.1568)
+Gradient after update: tensor(-0.1568)
+Total Loss:  tensor(69.4803, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7704,  2.1151, -1.4748,  0.0000,  0.0000,  0.0000],
+        [ 1.1006,  2.7975,  0.2253,  0.0000,  0.0000,  0.0000],
+        [ 1.2561,  1.7765,  1.2581,  0.0000,  0.0000,  0.0000],
+        [ 3.5140,  3.1932,  1.3506,  0.0000,  0.0000,  0.0000],
+        [ 1.1333,  1.7139,  3.2438,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  95
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4811, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4811, grad_fn=<AddBackward0>)
+Gradients:
+0.13453301787376404
+Gradient before update: tensor(-0.2575)
+Gradient after update: tensor(-0.2575)
+Iteration:  96
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4809, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4809, grad_fn=<AddBackward0>)
+Gradients:
+0.12270310521125793
+Gradient before update: tensor(-0.2322)
+Gradient after update: tensor(-0.2322)
+Total Loss:  tensor(69.4809, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7694,  2.1130, -1.4666,  0.0000,  0.0000,  0.0000],
+        [ 1.1027,  2.7942,  0.2337,  0.0000,  0.0000,  0.0000],
+        [ 1.2535,  1.7709,  1.2738,  0.0000,  0.0000,  0.0000],
+        [ 3.5135,  3.1932,  1.3488,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.7110,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  97
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4802, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4802, grad_fn=<AddBackward0>)
+Gradients:
+0.09331540018320084
+Gradient before update: tensor(-0.0980)
+Gradient after update: tensor(-0.0980)
+Iteration:  98
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4800, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4800, grad_fn=<AddBackward0>)
+Gradients:
+0.06288911402225494
+Gradient before update: tensor(0.0014)
+Gradient after update: tensor(0.0014)
+Total Loss:  tensor(69.4800, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7733,  2.1143, -1.4656,  0.0000,  0.0000,  0.0000],
+        [ 1.1063,  2.7927,  0.2570,  0.0000,  0.0000,  0.0000],
+        [ 1.2567,  1.7669,  1.2861,  0.0000,  0.0000,  0.0000],
+        [ 3.5130,  3.1933,  1.3470,  0.0000,  0.0000,  0.0000],
+        [ 1.1438,  1.7038,  3.2496,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  99
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4804, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4804, grad_fn=<AddBackward0>)
+Gradients:
+0.09785495698451996
+Gradient before update: tensor(0.1309)
+Gradient after update: tensor(0.1309)
+Iteration:  100
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4805, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4805, grad_fn=<AddBackward0>)
+Gradients:
+0.11479687690734863
+Gradient before update: tensor(0.2144)
+Gradient after update: tensor(0.2144)
+Total Loss:  tensor(69.4805, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7746,  2.1172, -1.4725,  0.0000,  0.0000,  0.0000],
+        [ 1.1080,  2.7932,  0.2580,  0.0000,  0.0000,  0.0000],
+        [ 1.2555,  1.7634,  1.3022,  0.0000,  0.0000,  0.0000],
+        [ 3.5125,  3.1939,  1.3456,  0.0000,  0.0000,  0.0000],
+        [ 1.1452,  1.6978,  3.2451,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  101
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4802, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4802, grad_fn=<AddBackward0>)
+Gradients:
+0.12467806786298752
+Gradient before update: tensor(0.1548)
+Gradient after update: tensor(0.1548)
+Iteration:  102
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4797, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4797, grad_fn=<AddBackward0>)
+Gradients:
+0.09961270540952682
+Gradient before update: tensor(0.0429)
+Gradient after update: tensor(0.0429)
+Total Loss:  tensor(69.4797, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7755,  2.1190, -1.4793,  0.0000,  0.0000,  0.0000],
+        [ 1.1067,  2.7952,  0.2392,  0.0000,  0.0000,  0.0000],
+        [ 1.2426,  1.7622,  1.3051,  0.0000,  0.0000,  0.0000],
+        [ 3.5120,  3.1947,  1.3439,  0.0000,  0.0000,  0.0000],
+        [ 1.1444,  1.6953,  3.2405,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  103
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4795, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4795, grad_fn=<AddBackward0>)
+Gradients:
+0.1050918847322464
+Gradient before update: tensor(-0.0869)
+Gradient after update: tensor(-0.0869)
+Iteration:  104
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4795, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4795, grad_fn=<AddBackward0>)
+Gradients:
+0.1046682596206665
+Gradient before update: tensor(-0.1006)
+Gradient after update: tensor(-0.1006)
+Total Loss:  tensor(69.4795, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7760,  2.1182, -1.4750,  0.0000,  0.0000,  0.0000],
+        [ 1.1041,  2.7976,  0.2325,  0.0000,  0.0000,  0.0000],
+        [ 1.2246,  1.7644,  1.3015,  0.0000,  0.0000,  0.0000],
+        [ 3.5114,  3.1953,  1.3451,  0.0000,  0.0000,  0.0000],
+        [ 1.1422,  1.6984,  3.2483,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  105
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4792, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4792, grad_fn=<AddBackward0>)
+Gradients:
+0.10084255784749985
+Gradient before update: tensor(-0.1025)
+Gradient after update: tensor(-0.1025)
+Iteration:  106
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4787, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4787, grad_fn=<AddBackward0>)
+Gradients:
+0.07274799793958664
+Gradient before update: tensor(0.0180)
+Gradient after update: tensor(0.0180)
+Total Loss:  tensor(69.4787, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7752,  2.1159, -1.4706,  0.0000,  0.0000,  0.0000],
+        [ 1.1026,  2.7994,  0.2458,  0.0000,  0.0000,  0.0000],
+        [ 1.2049,  1.7686,  1.3127,  0.0000,  0.0000,  0.0000],
+        [ 3.5109,  3.1961,  1.3464,  0.0000,  0.0000,  0.0000],
+        [ 1.1394,  1.7026,  3.2450,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  107
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4786, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4786, grad_fn=<AddBackward0>)
+Gradients:
+0.07312357425689697
+Gradient before update: tensor(0.0108)
+Gradient after update: tensor(0.0108)
+Iteration:  108
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4788, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4788, grad_fn=<AddBackward0>)
+Gradients:
+0.09040666371583939
+Gradient before update: tensor(0.0249)
+Gradient after update: tensor(0.0249)
+Total Loss:  tensor(69.4788, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7704,  2.1142, -1.4676,  0.0000,  0.0000,  0.0000],
+        [ 1.1034,  2.8000,  0.2553,  0.0000,  0.0000,  0.0000],
+        [ 1.1949,  1.7738,  1.2997,  0.0000,  0.0000,  0.0000],
+        [ 3.5103,  3.1974,  1.3472,  0.0000,  0.0000,  0.0000],
+        [ 1.1373,  1.7028,  3.2417,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  109
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Gradients:
+0.08319467306137085
+Gradient before update: tensor(0.0197)
+Gradient after update: tensor(0.0197)
+Iteration:  110
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Gradients:
+0.061299316585063934
+Gradient before update: tensor(0.0130)
+Gradient after update: tensor(0.0130)
+Total Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7692,  2.1145, -1.4690,  0.0000,  0.0000,  0.0000],
+        [ 1.1053,  2.7993,  0.2470,  0.0000,  0.0000,  0.0000],
+        [ 1.1937,  1.7774,  1.2867,  0.0000,  0.0000,  0.0000],
+        [ 3.5097,  3.1990,  1.3480,  0.0000,  0.0000,  0.0000],
+        [ 1.1364,  1.6994,  3.2475,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  111
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4787, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4787, grad_fn=<AddBackward0>)
+Gradients:
+0.040801625698804855
+Gradient before update: tensor(-0.0134)
+Gradient after update: tensor(-0.0134)
+Iteration:  112
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Gradients:
+0.050272323191165924
+Gradient before update: tensor(-0.0550)
+Gradient after update: tensor(-0.0550)
+Total Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7731,  2.1161, -1.4710,  0.0000,  0.0000,  0.0000],
+        [ 1.1065,  2.7979,  0.2370,  0.0000,  0.0000,  0.0000],
+        [ 1.1934,  1.7799,  1.2867,  0.0000,  0.0000,  0.0000],
+        [ 3.5092,  3.2008,  1.3477,  0.0000,  0.0000,  0.0000],
+        [ 1.1367,  1.6967,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  113
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4789, grad_fn=<AddBackward0>)
+Gradients:
+0.05865214020013809
+Gradient before update: tensor(-0.0637)
+Gradient after update: tensor(-0.0637)
+Iteration:  114
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4790, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4790, grad_fn=<AddBackward0>)
+Gradients:
+0.060374997556209564
+Gradient before update: tensor(-0.0304)
+Gradient after update: tensor(-0.0304)
+Total Loss:  tensor(69.4790, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7741,  2.1173, -1.4692,  0.0000,  0.0000,  0.0000],
+        [ 1.1060,  2.7965,  0.2411,  0.0000,  0.0000,  0.0000],
+        [ 1.1939,  1.7809,  1.2926,  0.0000,  0.0000,  0.0000],
+        [ 3.5086,  3.2022,  1.3461,  0.0000,  0.0000,  0.0000],
+        [ 1.1380,  1.6978,  3.2427,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  115
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4788, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4788, grad_fn=<AddBackward0>)
+Gradients:
+0.07190867513418198
+Gradient before update: tensor(-0.1088)
+Gradient after update: tensor(-0.1088)
+Iteration:  116
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4784, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4784, grad_fn=<AddBackward0>)
+Gradients:
+0.052781131118535995
+Gradient before update: tensor(-0.0381)
+Gradient after update: tensor(-0.0381)
+Total Loss:  tensor(69.4784, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7710,  2.1169, -1.4682,  0.0000,  0.0000,  0.0000],
+        [ 1.1046,  2.7957,  0.2504,  0.0000,  0.0000,  0.0000],
+        [ 1.2042,  1.7814,  1.3024,  0.0000,  0.0000,  0.0000],
+        [ 3.5081,  3.2030,  1.3474,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.7006,  3.2469,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  117
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Gradients:
+0.04273253679275513
+Gradient before update: tensor(0.0697)
+Gradient after update: tensor(0.0697)
+Iteration:  118
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4786, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4786, grad_fn=<AddBackward0>)
+Gradients:
+0.0722908154129982
+Gradient before update: tensor(0.1346)
+Gradient after update: tensor(0.1346)
+Total Loss:  tensor(69.4786, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7703,  2.1157, -1.4700,  0.0000,  0.0000,  0.0000],
+        [ 1.1037,  2.7957,  0.2492,  0.0000,  0.0000,  0.0000],
+        [ 1.2139,  1.7806,  1.3051,  0.0000,  0.0000,  0.0000],
+        [ 3.5075,  3.2033,  1.3473,  0.0000,  0.0000,  0.0000],
+        [ 1.1411,  1.7016,  3.2443,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  119
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4785, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4785, grad_fn=<AddBackward0>)
+Gradients:
+0.05179417133331299
+Gradient before update: tensor(0.0043)
+Gradient after update: tensor(0.0043)
+Iteration:  120
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Gradients:
+0.03501458093523979
+Gradient before update: tensor(0.0119)
+Gradient after update: tensor(0.0119)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7730,  2.1152, -1.4701,  0.0000,  0.0000,  0.0000],
+        [ 1.1040,  2.7964,  0.2413,  0.0000,  0.0000,  0.0000],
+        [ 1.2218,  1.7780,  1.3104,  0.0000,  0.0000,  0.0000],
+        [ 3.5070,  3.2033,  1.3463,  0.0000,  0.0000,  0.0000],
+        [ 1.1417,  1.6999,  3.2435,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  121
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4784, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4784, grad_fn=<AddBackward0>)
+Gradients:
+0.04662291705608368
+Gradient before update: tensor(0.0326)
+Gradient after update: tensor(0.0326)
+Iteration:  122
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4785, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4785, grad_fn=<AddBackward0>)
+Gradients:
+0.05446837097406387
+Gradient before update: tensor(0.0455)
+Gradient after update: tensor(0.0455)
+Total Loss:  tensor(69.4785, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7735,  2.1157, -1.4686,  0.0000,  0.0000,  0.0000],
+        [ 1.1051,  2.7973,  0.2406,  0.0000,  0.0000,  0.0000],
+        [ 1.2216,  1.7751,  1.3083,  0.0000,  0.0000,  0.0000],
+        [ 3.5065,  3.2026,  1.3478,  0.0000,  0.0000,  0.0000],
+        [ 1.1415,  1.6981,  3.2465,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  123
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4784, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4784, grad_fn=<AddBackward0>)
+Gradients:
+0.04423076659440994
+Gradient before update: tensor(0.0333)
+Gradient after update: tensor(0.0333)
+Iteration:  124
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Gradients:
+0.028021132573485374
+Gradient before update: tensor(0.0013)
+Gradient after update: tensor(0.0013)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7712,  2.1165, -1.4691,  0.0000,  0.0000,  0.0000],
+        [ 1.1058,  2.7981,  0.2470,  0.0000,  0.0000,  0.0000],
+        [ 1.2150,  1.7730,  1.3061,  0.0000,  0.0000,  0.0000],
+        [ 3.5060,  3.2015,  1.3468,  0.0000,  0.0000,  0.0000],
+        [ 1.1406,  1.6985,  3.2440,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  125
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Gradients:
+0.028684578835964203
+Gradient before update: tensor(0.0396)
+Gradient after update: tensor(0.0396)
+Iteration:  126
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Gradients:
+0.028970973566174507
+Gradient before update: tensor(0.0082)
+Gradient after update: tensor(0.0082)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7708,  2.1168, -1.4702,  0.0000,  0.0000,  0.0000],
+        [ 1.1054,  2.7983,  0.2488,  0.0000,  0.0000,  0.0000],
+        [ 1.2067,  1.7715,  1.3056,  0.0000,  0.0000,  0.0000],
+        [ 3.5055,  3.2005,  1.3459,  0.0000,  0.0000,  0.0000],
+        [ 1.1395,  1.7002,  3.2442,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  127
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Gradients:
+0.0363440178334713
+Gradient before update: tensor(0.0347)
+Gradient after update: tensor(0.0347)
+Iteration:  128
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Gradients:
+0.02933688275516033
+Gradient before update: tensor(-0.0115)
+Gradient after update: tensor(-0.0115)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7726,  2.1163, -1.4692,  0.0000,  0.0000,  0.0000],
+        [ 1.1046,  2.7980,  0.2439,  0.0000,  0.0000,  0.0000],
+        [ 1.2011,  1.7712,  1.2986,  0.0000,  0.0000,  0.0000],
+        [ 3.5049,  3.1989,  1.3474,  0.0000,  0.0000,  0.0000],
+        [ 1.1387,  1.7010,  3.2460,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  129
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Gradients:
+0.044232919812202454
+Gradient before update: tensor(-0.0550)
+Gradient after update: tensor(-0.0550)
+Iteration:  130
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Gradients:
+0.04351768642663956
+Gradient before update: tensor(-0.0690)
+Gradient after update: tensor(-0.0690)
+Total Loss:  tensor(69.4783, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7727,  2.1156, -1.4688,  0.0000,  0.0000,  0.0000],
+        [ 1.1042,  2.7974,  0.2416,  0.0000,  0.0000,  0.0000],
+        [ 1.2033,  1.7719,  1.3029,  0.0000,  0.0000,  0.0000],
+        [ 3.5044,  3.1973,  1.3489,  0.0000,  0.0000,  0.0000],
+        [ 1.1384,  1.7000,  3.2439,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  131
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Gradients:
+0.031377196311950684
+Gradient before update: tensor(-0.0491)
+Gradient after update: tensor(-0.0491)
+Iteration:  132
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Gradients:
+0.026454418897628784
+Gradient before update: tensor(-0.0203)
+Gradient after update: tensor(-0.0203)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7713,  2.1154, -1.4698,  0.0000,  0.0000,  0.0000],
+        [ 1.1045,  2.7969,  0.2452,  0.0000,  0.0000,  0.0000],
+        [ 1.2091,  1.7732,  1.3040,  0.0000,  0.0000,  0.0000],
+        [ 3.5039,  3.1955,  1.3475,  0.0000,  0.0000,  0.0000],
+        [ 1.1386,  1.6988,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  133
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Gradients:
+0.024053674191236496
+Gradient before update: tensor(0.0022)
+Gradient after update: tensor(0.0022)
+Iteration:  134
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Gradients:
+0.031130390241742134
+Gradient before update: tensor(0.0107)
+Gradient after update: tensor(0.0107)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7714,  2.1160, -1.4696,  0.0000,  0.0000,  0.0000],
+        [ 1.1051,  2.7966,  0.2476,  0.0000,  0.0000,  0.0000],
+        [ 1.2099,  1.7745,  1.2993,  0.0000,  0.0000,  0.0000],
+        [ 3.5034,  3.1942,  1.3463,  0.0000,  0.0000,  0.0000],
+        [ 1.1391,  1.6989,  3.2455,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  135
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4782, grad_fn=<AddBackward0>)
+Gradients:
+0.03359318524599075
+Gradient before update: tensor(0.0143)
+Gradient after update: tensor(0.0143)
+Iteration:  136
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.019526150077581406
+Gradient before update: tensor(0.0194)
+Gradient after update: tensor(0.0194)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7726,  2.1165, -1.4689,  0.0000,  0.0000,  0.0000],
+        [ 1.1054,  2.7967,  0.2450,  0.0000,  0.0000,  0.0000],
+        [ 1.2056,  1.7753,  1.3035,  0.0000,  0.0000,  0.0000],
+        [ 3.5028,  3.1931,  1.3459,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6999,  3.2440,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  137
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.016006670892238617
+Gradient before update: tensor(0.0223)
+Gradient after update: tensor(0.0223)
+Iteration:  138
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0263177752494812
+Gradient before update: tensor(0.0145)
+Gradient after update: tensor(0.0145)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7723,  2.1164, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1051,  2.7970,  0.2427,  0.0000,  0.0000,  0.0000],
+        [ 1.2029,  1.7753,  1.3028,  0.0000,  0.0000,  0.0000],
+        [ 3.5022,  3.1921,  1.3459,  0.0000,  0.0000,  0.0000],
+        [ 1.1402,  1.7003,  3.2451,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  139
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.02643643505871296
+Gradient before update: tensor(-0.0030)
+Gradient after update: tensor(-0.0030)
+Iteration:  140
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.02361193113029003
+Gradient before update: tensor(-0.0166)
+Gradient after update: tensor(-0.0166)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7713,  2.1160, -1.4697,  0.0000,  0.0000,  0.0000],
+        [ 1.1046,  2.7974,  0.2446,  0.0000,  0.0000,  0.0000],
+        [ 1.2052,  1.7748,  1.3002,  0.0000,  0.0000,  0.0000],
+        [ 3.5016,  3.1913,  1.3462,  0.0000,  0.0000,  0.0000],
+        [ 1.1404,  1.6998,  3.2450,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  141
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.016390133649110794
+Gradient before update: tensor(-0.0122)
+Gradient after update: tensor(-0.0122)
+Iteration:  142
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.011881661601364613
+Gradient before update: tensor(0.0096)
+Gradient after update: tensor(0.0096)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7717,  2.1157, -1.4692,  0.0000,  0.0000,  0.0000],
+        [ 1.1045,  2.7976,  0.2467,  0.0000,  0.0000,  0.0000],
+        [ 1.2084,  1.7740,  1.3036,  0.0000,  0.0000,  0.0000],
+        [ 3.5009,  3.1906,  1.3466,  0.0000,  0.0000,  0.0000],
+        [ 1.1404,  1.6991,  3.2442,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  143
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.021048493683338165
+Gradient before update: tensor(0.0314)
+Gradient after update: tensor(0.0314)
+Iteration:  144
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.020745662972331047
+Gradient before update: tensor(0.0349)
+Gradient after update: tensor(0.0349)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7725,  2.1159, -1.4692,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7977,  0.2453,  0.0000,  0.0000,  0.0000],
+        [ 1.2080,  1.7732,  1.3018,  0.0000,  0.0000,  0.0000],
+        [ 3.5003,  3.1904,  1.3469,  0.0000,  0.0000,  0.0000],
+        [ 1.1400,  1.6993,  3.2453,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  145
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.013364129699766636
+Gradient before update: tensor(0.0173)
+Gradient after update: tensor(0.0173)
+Iteration:  146
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0126498406752944
+Gradient before update: tensor(-0.0074)
+Gradient after update: tensor(-0.0074)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1162, -1.4697,  0.0000,  0.0000,  0.0000],
+        [ 1.1051,  2.7975,  0.2435,  0.0000,  0.0000,  0.0000],
+        [ 1.2052,  1.7728,  1.3011,  0.0000,  0.0000,  0.0000],
+        [ 3.4996,  3.1904,  1.3471,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.6999,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  147
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.013631642796099186
+Gradient before update: tensor(-0.0215)
+Gradient after update: tensor(-0.0215)
+Iteration:  148
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.01612829603254795
+Gradient before update: tensor(-0.0197)
+Gradient after update: tensor(-0.0197)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7715,  2.1163, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1051,  2.7972,  0.2445,  0.0000,  0.0000,  0.0000],
+        [ 1.2044,  1.7729,  1.3034,  0.0000,  0.0000,  0.0000],
+        [ 3.4989,  3.1895,  1.3473,  0.0000,  0.0000,  0.0000],
+        [ 1.1393,  1.7001,  3.2445,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  149
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.016263926401734352
+Gradient before update: tensor(-0.0094)
+Gradient after update: tensor(-0.0094)
+Iteration:  150
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.010137929581105709
+Gradient before update: tensor(-0.0017)
+Gradient after update: tensor(-0.0017)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1161, -1.4692,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7970,  0.2460,  0.0000,  0.0000,  0.0000],
+        [ 1.2064,  1.7733,  1.3012,  0.0000,  0.0000,  0.0000],
+        [ 3.4982,  3.1884,  1.3470,  0.0000,  0.0000,  0.0000],
+        [ 1.1392,  1.6997,  3.2452,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  151
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.009610908105969429
+Gradient before update: tensor(0.0006)
+Gradient after update: tensor(0.0006)
+Iteration:  152
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.01211297046393156
+Gradient before update: tensor(0.0015)
+Gradient after update: tensor(0.0015)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7723,  2.1158, -1.4695,  0.0000,  0.0000,  0.0000],
+        [ 1.1047,  2.7970,  0.2453,  0.0000,  0.0000,  0.0000],
+        [ 1.2078,  1.7739,  1.3019,  0.0000,  0.0000,  0.0000],
+        [ 3.4976,  3.1869,  1.3469,  0.0000,  0.0000,  0.0000],
+        [ 1.1393,  1.6993,  3.2445,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  153
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.01108933612704277
+Gradient before update: tensor(0.0040)
+Gradient after update: tensor(0.0040)
+Iteration:  154
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.011140551418066025
+Gradient before update: tensor(0.0049)
+Gradient after update: tensor(0.0049)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7718,  2.1159, -1.4695,  0.0000,  0.0000,  0.0000],
+        [ 1.1047,  2.7971,  0.2440,  0.0000,  0.0000,  0.0000],
+        [ 1.2067,  1.7743,  1.3029,  0.0000,  0.0000,  0.0000],
+        [ 3.4968,  3.1857,  1.3469,  0.0000,  0.0000,  0.0000],
+        [ 1.1395,  1.6994,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  155
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.008821726776659489
+Gradient before update: tensor(0.0013)
+Gradient after update: tensor(0.0013)
+Iteration:  156
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.007338914554566145
+Gradient before update: tensor(-0.0047)
+Gradient after update: tensor(-0.0047)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7717,  2.1161, -1.4692,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7972,  0.2446,  0.0000,  0.0000,  0.0000],
+        [ 1.2051,  1.7744,  1.3012,  0.0000,  0.0000,  0.0000],
+        [ 3.4961,  3.1849,  1.3468,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6998,  3.2449,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  157
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.010011508129537106
+Gradient before update: tensor(-0.0065)
+Gradient after update: tensor(-0.0065)
+Iteration:  158
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.009376628324389458
+Gradient before update: tensor(5.5335e-05)
+Gradient after update: tensor(5.5335e-05)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7721,  2.1162, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1050,  2.7974,  0.2456,  0.0000,  0.0000,  0.0000],
+        [ 1.2054,  1.7743,  1.3025,  0.0000,  0.0000,  0.0000],
+        [ 3.4953,  3.1843,  1.3468,  0.0000,  0.0000,  0.0000],
+        [ 1.1399,  1.6999,  3.2445,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  159
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.008287210948765278
+Gradient before update: tensor(0.0110)
+Gradient after update: tensor(0.0110)
+Iteration:  160
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.007285091560333967
+Gradient before update: tensor(0.0172)
+Gradient after update: tensor(0.0172)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7721,  2.1161, -1.4695,  0.0000,  0.0000,  0.0000],
+        [ 1.1050,  2.7974,  0.2452,  0.0000,  0.0000,  0.0000],
+        [ 1.2068,  1.7740,  1.3022,  0.0000,  0.0000,  0.0000],
+        [ 3.4945,  3.1837,  1.3469,  0.0000,  0.0000,  0.0000],
+        [ 1.1400,  1.6996,  3.2450,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  161
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.005324693862348795
+Gradient before update: tensor(0.0138)
+Gradient after update: tensor(0.0138)
+Iteration:  162
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.007477366831153631
+Gradient before update: tensor(0.0051)
+Gradient after update: tensor(0.0051)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7718,  2.1160, -1.4693,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7974,  0.2443,  0.0000,  0.0000,  0.0000],
+        [ 1.2071,  1.7736,  1.3015,  0.0000,  0.0000,  0.0000],
+        [ 3.4937,  3.1835,  1.3473,  0.0000,  0.0000,  0.0000],
+        [ 1.1399,  1.6994,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  163
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.007737119682133198
+Gradient before update: tensor(-0.0022)
+Gradient after update: tensor(-0.0022)
+Iteration:  164
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.005171435885131359
+Gradient before update: tensor(-0.0036)
+Gradient after update: tensor(-0.0036)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7718,  2.1159, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7973,  0.2447,  0.0000,  0.0000,  0.0000],
+        [ 1.2060,  1.7734,  1.3026,  0.0000,  0.0000,  0.0000],
+        [ 3.4930,  3.1835,  1.3476,  0.0000,  0.0000,  0.0000],
+        [ 1.1398,  1.6996,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  165
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.004819686524569988
+Gradient before update: tensor(-0.0021)
+Gradient after update: tensor(-0.0021)
+Iteration:  166
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.005418498534709215
+Gradient before update: tensor(-0.0020)
+Gradient after update: tensor(-0.0020)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7721,  2.1161, -1.4695,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7972,  0.2454,  0.0000,  0.0000,  0.0000],
+        [ 1.2055,  1.7734,  1.3018,  0.0000,  0.0000,  0.0000],
+        [ 3.4923,  3.1835,  1.3483,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.6998,  3.2449,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  167
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.006456127390265465
+Gradient before update: tensor(-0.0038)
+Gradient after update: tensor(-0.0038)
+Iteration:  168
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.005847104825079441
+Gradient before update: tensor(-0.0043)
+Gradient after update: tensor(-0.0043)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1161, -1.4693,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7971,  0.2450,  0.0000,  0.0000,  0.0000],
+        [ 1.2061,  1.7736,  1.3019,  0.0000,  0.0000,  0.0000],
+        [ 3.4916,  3.1835,  1.3494,  0.0000,  0.0000,  0.0000],
+        [ 1.1395,  1.6997,  3.2446,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  169
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.002809620928019285
+Gradient before update: tensor(-0.0013)
+Gradient after update: tensor(-0.0013)
+Iteration:  170
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.005193714052438736
+Gradient before update: tensor(0.0057)
+Gradient after update: tensor(0.0057)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7718,  2.1161, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1050,  2.7971,  0.2445,  0.0000,  0.0000,  0.0000],
+        [ 1.2068,  1.7738,  1.3024,  0.0000,  0.0000,  0.0000],
+        [ 3.4909,  3.1838,  1.3475,  0.0000,  0.0000,  0.0000],
+        [ 1.1395,  1.6996,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  171
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.005231717135757208
+Gradient before update: tensor(0.0031)
+Gradient after update: tensor(0.0031)
+Iteration:  172
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0043800268322229385
+Gradient before update: tensor(0.0011)
+Gradient after update: tensor(0.0011)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1160, -1.4695,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7972,  0.2448,  0.0000,  0.0000,  0.0000],
+        [ 1.2065,  1.7740,  1.3017,  0.0000,  0.0000,  0.0000],
+        [ 3.4903,  3.1841,  1.3430,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.6995,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  173
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0045449454337358475
+Gradient before update: tensor(-0.0040)
+Gradient after update: tensor(-0.0040)
+Iteration:  174
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.003850852372124791
+Gradient before update: tensor(-0.0032)
+Gradient after update: tensor(-0.0032)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1160, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7973,  0.2452,  0.0000,  0.0000,  0.0000],
+        [ 1.2058,  1.7740,  1.3023,  0.0000,  0.0000,  0.0000],
+        [ 3.4897,  3.1840,  1.3475,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.6996,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  175
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.003949035424739122
+Gradient before update: tensor(0.0026)
+Gradient after update: tensor(0.0026)
+Iteration:  176
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0052823834121227264
+Gradient before update: tensor(0.0062)
+Gradient after update: tensor(0.0062)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7719,  2.1160, -1.4693,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7973,  0.2450,  0.0000,  0.0000,  0.0000],
+        [ 1.2059,  1.7740,  1.3021,  0.0000,  0.0000,  0.0000],
+        [ 3.4891,  3.1839,  1.3505,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6997,  3.2449,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  177
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0041608987376093864
+Gradient before update: tensor(0.0045)
+Gradient after update: tensor(0.0045)
+Iteration:  178
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0026018982753157616
+Gradient before update: tensor(-0.0001)
+Gradient after update: tensor(-0.0001)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7719,  2.1161, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7973,  0.2446,  0.0000,  0.0000,  0.0000],
+        [ 1.2065,  1.7739,  1.3018,  0.0000,  0.0000,  0.0000],
+        [ 3.4886,  3.1838,  1.3441,  0.0000,  0.0000,  0.0000],
+        [ 1.1398,  1.6997,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  179
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.004298840649425983
+Gradient before update: tensor(-0.0036)
+Gradient after update: tensor(-0.0036)
+Iteration:  180
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0030433975625783205
+Gradient before update: tensor(0.0039)
+Gradient after update: tensor(0.0039)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1161, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7973,  0.2449,  0.0000,  0.0000,  0.0000],
+        [ 1.2066,  1.7737,  1.3023,  0.0000,  0.0000,  0.0000],
+        [ 3.4881,  3.1838,  1.3448,  0.0000,  0.0000,  0.0000],
+        [ 1.1398,  1.6996,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  181
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0030166124925017357
+Gradient before update: tensor(0.0059)
+Gradient after update: tensor(0.0059)
+Iteration:  182
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0018981617176905274
+Gradient before update: tensor(0.0034)
+Gradient after update: tensor(0.0034)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1160, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7972,  0.2451,  0.0000,  0.0000,  0.0000],
+        [ 1.2061,  1.7737,  1.3019,  0.0000,  0.0000,  0.0000],
+        [ 3.4876,  3.1838,  1.3449,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6996,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  183
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0021633636206388474
+Gradient before update: tensor(-0.0006)
+Gradient after update: tensor(-0.0006)
+Iteration:  184
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0025111427530646324
+Gradient before update: tensor(-0.0036)
+Gradient after update: tensor(-0.0036)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7719,  2.1160, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7972,  0.2449,  0.0000,  0.0000,  0.0000],
+        [ 1.2059,  1.7737,  1.3021,  0.0000,  0.0000,  0.0000],
+        [ 3.4872,  3.1838,  1.3457,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6997,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  185
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0022514695301651955
+Gradient before update: tensor(-0.0039)
+Gradient after update: tensor(-0.0039)
+Iteration:  186
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.00233638403005898
+Gradient before update: tensor(-0.0013)
+Gradient after update: tensor(-0.0013)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1160, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1048,  2.7972,  0.2447,  0.0000,  0.0000,  0.0000],
+        [ 1.2062,  1.7737,  1.3021,  0.0000,  0.0000,  0.0000],
+        [ 3.4868,  3.1838,  1.3472,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.6997,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  187
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.001756510348059237
+Gradient before update: tensor(1.7561e-05)
+Gradient after update: tensor(1.7561e-05)
+Iteration:  188
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.001669542514719069
+Gradient before update: tensor(0.0006)
+Gradient after update: tensor(0.0006)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1161, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7972,  0.2449,  0.0000,  0.0000,  0.0000],
+        [ 1.2065,  1.7738,  1.3019,  0.0000,  0.0000,  0.0000],
+        [ 3.4863,  3.1837,  1.3481,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.6996,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  189
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0019873976707458496
+Gradient before update: tensor(0.0014)
+Gradient after update: tensor(0.0014)
+Iteration:  190
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0016491871792823076
+Gradient before update: tensor(0.0026)
+Gradient after update: tensor(0.0026)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7719,  2.1161, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7973,  0.2450,  0.0000,  0.0000,  0.0000],
+        [ 1.2063,  1.7739,  1.3022,  0.0000,  0.0000,  0.0000],
+        [ 3.4859,  3.1838,  1.3476,  0.0000,  0.0000,  0.0000],
+        [ 1.1396,  1.6996,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  191
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0015942935133352876
+Gradient before update: tensor(0.0029)
+Gradient after update: tensor(0.0029)
+Iteration:  192
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0012086553033441305
+Gradient before update: tensor(0.0007)
+Gradient after update: tensor(0.0007)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7719,  2.1161, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7973,  0.2448,  0.0000,  0.0000,  0.0000],
+        [ 1.2060,  1.7739,  1.3020,  0.0000,  0.0000,  0.0000],
+        [ 3.4855,  3.1838,  1.3460,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6996,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  193
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0015739245573058724
+Gradient before update: tensor(-0.0010)
+Gradient after update: tensor(-0.0010)
+Iteration:  194
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0017327653476968408
+Gradient before update: tensor(-0.0015)
+Gradient after update: tensor(-0.0015)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7720,  2.1160, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7973,  0.2448,  0.0000,  0.0000,  0.0000],
+        [ 1.2061,  1.7739,  1.3020,  0.0000,  0.0000,  0.0000],
+        [ 3.4852,  3.1838,  1.3457,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6997,  3.2447,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  195
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0011767647229135036
+Gradient before update: tensor(-0.0002)
+Gradient after update: tensor(-0.0002)
+Iteration:  196
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.000901827763300389
+Gradient before update: tensor(0.0016)
+Gradient after update: tensor(0.0016)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7719,  2.1160, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7972,  0.2450,  0.0000,  0.0000,  0.0000],
+        [ 1.2064,  1.7738,  1.3021,  0.0000,  0.0000,  0.0000],
+        [ 3.4849,  3.1838,  1.3463,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6997,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  197
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0010815563146024942
+Gradient before update: tensor(0.0021)
+Gradient after update: tensor(0.0021)
+Iteration:  198
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0012065279297530651
+Gradient before update: tensor(0.0011)
+Gradient after update: tensor(0.0011)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Parameter containing:
+tensor([[ 1.7719,  2.1161, -1.4694,  0.0000,  0.0000,  0.0000],
+        [ 1.1049,  2.7972,  0.2450,  0.0000,  0.0000,  0.0000],
+        [ 1.2063,  1.7738,  1.3020,  0.0000,  0.0000,  0.0000],
+        [ 3.4846,  3.1838,  1.3463,  0.0000,  0.0000,  0.0000],
+        [ 1.1397,  1.6996,  3.2448,  0.0000,  0.0000,  0.0000]],
+       requires_grad=True)
+Iteration:  199
+inside calulate_loss, stacked_final_signed_distances.requires_grad:  True
+Intersection Loss:  tensor(-0., grad_fn=<DivBackward0>)
+Projection Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Total Loss:  tensor(69.4781, grad_fn=<AddBackward0>)
+Gradients:
+0.0010645785368978977
+Gradient before update: tensor(-6.3854e-05)
+Gradient after update: tensor(-6.3854e-05)
